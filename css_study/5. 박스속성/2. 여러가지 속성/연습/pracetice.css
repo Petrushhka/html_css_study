@@ -1,0 +1,36 @@
+.outer {
+    margin: 10px 0;
+    border: 3px double #123456;
+    width: 550px;
+}
+
+h1 {
+    background-color: #abcdef;
+    font-size: 18px;
+    font-weight:600;
+    text-align: center;
+    letter-spacing: 10px;
+    border-bottom: 3px solid #123456;
+    padding: 15px 0;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+.outer div{
+    height: 45px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.outer div:nth-child(2) {
+
+    border-bottom: 1px dotted #123456;
+
+}
+.outer p {
+    margin-top: 5px;
+    font-size: 12px;
+
+}
